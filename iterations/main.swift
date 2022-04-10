@@ -349,10 +349,8 @@ func policyIteration() -> Void {
     
     
 }
-////
-//let path = "/Users/erfan/Downloads/HW2_AI2/HW2_AI2/book_sample.txt"
-let path = "/Users/erfan/Downloads/HW2_AI2/HW2_AI2/sample_5.txt"
-//let path = "/Users/erfan/Downloads/HW2_AI2/HW2_AI2/sample_25.txt"
+
+let path = "sample_5.txt"
 
 var contents : String? = try String(contentsOfFile: path, encoding: .utf8)
 
